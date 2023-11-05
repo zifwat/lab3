@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+  }
+
+  tr {
+    background-color: #111;
+  }
+  
+  table {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  td, th {
+    padding: 8px;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  .main-content {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .image-container img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+
+  .name-description {
+    text-align: center;
+  }
+
+  .name-description h2 {
+    font-size: 32px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+  }
+
+  .name-description h3 {
+    font-size: 24px;
+    margin: 5px 0;
+  }
+
+  .section {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #111;
+  }
+
+  .sectionprofile {
+    margin-top: 30px;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #111;
+  }
+
+  .section h2 {
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section.hobbies,
+  .section.campus-life {
+    flex-basis: 45%;
+  }
+
+  box {
+height: min-content;
+background-color: rgb(38, 38, 38);
+border-radius: 15px;
+width: auto;
+margin: 120px;
+margin-top: 40px;
+}
+.sec_box {
+height: 700px;
+background-color: rgb(54, 54, 54);
+border-radius: 15px;
+text-align: right;
+}
+
+.profile {
+margin-top: 30px;
+margin-right: 50px;
+width: 350px;
+height: 350px;
+object-fit: cover;
+object-position: 0 70%;
+border-radius: 50%;
+border-style: double;
+border: none;
+}
+
+.row {
+display: flex;
+}
+.column {
+flex: 50%;
+}
+
+p {
+padding-left: 100px;
+margin-top: 10px;
+text-align: left;
+font-size: 40px;
+}
+
+h1 {
+padding-top: 30px;
+padding-left: 100px;
+text-align: left;
+font-size: 80px;
+}
+
+h2{
+  color: rgb(228, 220, 154);
+}
+
+nav {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 20px;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+</style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about-me">About Me</a>
+    <a href="#hobbies-section">Hobbies</a>
+    <a href="#campus-life-section">Campus Life</a>
+    <a href="#biodata-section">Biodata</a>
+  </nav>
+  
+  
+<div class="main-content">
+  <h2 style="text-align: center; font-size: 35px;">Welcome to My Personal Website</h2>
+  <div class="sectionprofile">
+    <div class="row">
+    <div class="column">
+    <h1 style="color: rgb(228, 220, 154);">Hey There!</h1>
+    <p style="color: rgb(240, 240, 240);">I'm Zul Ifwat</p>
+    </div>
+    <div class="column">
+    <img class="profile" src="wat.jpg" alt="My Image">
+    </div>
+    </div>
+  </div>
+  
+  <br/>
+  <div class="section" id="about-me">
+    <h2 style="text-align: center;">About Me</h2>
+    <p1>Hi, I'm Muhammad Zul Ifwat Bin Zulkefli. I am currently pursuing a Bachelor's degree in Computer Science (Software Engineering) at the University Tun Hussein Onn Malaysia. I have a strong passion for programming and technology.</p1>
+  </div>
+
+  <div class="flex-container">
+    <div class="section hobbies" id="hobbies-section">
+      <h2 style="text-align: center;">Hobbies</h2>
+      <p1>Engaging in sports activities is not only a hobby for me but also a way to maintain a healthy lifestyle and relieve stress. It allows me to stay physically fit and fosters a sense of discipline and teamwork</p1>
+    </div>
+
+    <div class="section campus-life" id="campus-life-section">
+      <h2 style="text-align: center;">Campus Life</h2>
+      <p1>During my time at the University Tun Hussein Onn Malaysia, I have actively participated in various programs, conferences, and industrial visits. I have cherished the moments of celebrations, festivals, and hangouts with my friends and classmates.</p1>
+    </div>
+  </div>
+
+  <div class="section" id="biodata-section">
+    <h2 style="text-align: center;">Biodata</h2>
+    <table bgcolor= "white" class= "center">
+      <tr>
+        <th>Name </th>
+        <td>Muhammad Zul Ifwat Bin Zulkefli</td>
+        <td  style="text-align: center;" ><img src="wat.jpg" width="100" ></td>
+      </tr>
+      <tr>
+        <th>Date of Birth:</th>
+        <td colspan="2">23/2/2001</td>
+      </tr>
+      <tr>
+        <th>Religion:</th>
+        <td colspan="2">Islam</td>
+      </tr>
+       <tr>
+        <th>Race:</th>
+        <td colspan="2">Malay</td>
+      </tr>
+       <tr>
+        <th rowspan="4">Address</th>
+        <th>Street</th>
+        <td>No 211</td>
+      </tr>
+      <tr>
+        <th>Town</th>
+        <td>Parit Raja</td>
+      </tr>
+       <tr>
+        <th>District</th>
+        <td>Batu Pahat</td>
+      </tr>
+       <tr>
+        <th>State</th>
+        <td>Johor</td>
+      </tr>
+        <tr>
+        <th rowspan="3">Contact</th>
+        <th>Mobile Phone</th>
+        <td>0138729310</td>
+      </tr>
+      <tr>
+        <th>Socal Media</th>
+        <td>Instagram</td>
+      </tr>
+       <tr>
+        <th>Website</th>
+        <td>www.instagram.com</td>
+      </tr>
+       <tr>
+        <th>Course and Institution:</th>
+        <td colspan="2">Bachelor Of Computer Science (Software Engineering) 
+          at University Tun Hussein Onn Malaysia</td>
+      </tr>
+       <tr>
+        <th>Programming Skills:</th>
+        <td colspan="2">Java,php,html</td>
+      </tr>
+       <tr>
+        <th>Personal Interest:</th>
+        <td colspan="2">Sports</td>
+      </tr>
+       <tr>
+        <th>Future Plan In 2024:</th>
+        <td colspan="2">Get a good job</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
